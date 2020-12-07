@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Transit Buddy</title>
+    <!-- link to normalize -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <!-- link to style sheet -->
+    <link rel="stylesheet" type="text/css" href="report.css">
+  </head>
+  <body>
+    <div class="flex-wrapper">
+        <header>
+            <div class="group navgroup">
+                <div class="item invisible"><button></button></div>
+                <h1 class="item">Transit Buddy</h1>
+                <div class="item"><a >Sign Up</a></div>
+            </div>
+          
+        </header>
+    
+        <main class="logingroup">
+            <h2 class="item">North Hollywood - Red Line</h2>
+            <div class="item issuesgroup">
+                <h3>Issues</h3>
+                <ul>
+                    <li>Issue</li>
+                    <li>Issue</li>
+                    <li>Issue</li>
+                    <li>Issue</li>
+                </ul>
+            </div>
+            <form class="item formgroup">
+                <h3>Report an Issue</h3>
+                <div class="formitem">
+                    <label  for="issueselect">Issue Type</label>
+                    <select  name="issueselect" id="cars">
+                        <option value="broken escalator">Broken Escalator</option>
+                        <option value="construction">Construction</option>
+                        <option value="Broken Elevator">Broken Elevator</option>
+                        <option value="Fair Checkpoint">Fair Checkpoint</option>
+                    </select>
+                </div>
+                
+                <button class="formitem"><a href="./dashboard.html">Submit</a></button>
+            </form>
+        </main>
+        <footer>
+            <p>Copyright Stewart Jester 2020</p>
+    
+        </footer>
+    </div>
+    
+  </body>
+</html>
